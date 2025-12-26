@@ -9,7 +9,7 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { JwtAuthGuard } from 'src/common/guards/jwt-auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../common/guards/jwt-auth/jwt-auth.guard';
 
 @Controller('auth')
 export class AuthController {

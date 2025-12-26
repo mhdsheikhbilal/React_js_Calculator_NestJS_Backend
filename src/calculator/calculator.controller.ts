@@ -10,7 +10,7 @@ import {
   Post,
   UseGuards,
 } from '@nestjs/common';
-import { JwtAuthGuard } from 'src/common/guards/jwt-auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../common/guards/jwt-auth/jwt-auth.guard';
 import { CalculatorService } from './calculator.service';
 import { Roles } from 'src/common/decorators/roles/roles.decorator';
 import { RolesGuard } from 'src/common/guards/roles/roles.guard';
